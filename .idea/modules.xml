@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HDT8_PrioritityQueue.iml" filepath="$PROJECT_DIR$/.idea/HDT8_PrioritityQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/HDT8_PrioritityQueue.iml" filepath="$PROJECT_DIR$/HDT8_PrioritityQueue.iml" />
     </modules>
   </component>

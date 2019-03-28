@@ -4,12 +4,13 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
 public class Main {
 
-    public static String menu = "MENÚ: \n" +
+    public static String menu = "MENÚ (con JCF): \n" +
             "\t 1. Cargar archivo de pacientes. \n" +
             "\t 2. Obtener paciente. \n" +
             "\t 3. Salir del programa.";
@@ -18,7 +19,8 @@ public class Main {
         boolean wantsToContinue = true;
         Scanner input = new Scanner(System.in);
 
-        VectorHeap<Patient> hospitalQueue = new VectorHeap<>();
+        //Implementación de PriorityQueue de Java Collection Framework.
+        PriorityQueue<Patient> hospitalQueue = new PriorityQueue<>();
 
         do {
             System.out.println(menu);
