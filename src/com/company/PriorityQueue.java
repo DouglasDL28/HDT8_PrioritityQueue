@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ * Código extraído de la 7ma edición del libro Java Structures por Duane A. Bailey.
+ * @param <E>
+ */
 public interface PriorityQueue<E extends Comparable<E>>
 {
     public E getFirst();
