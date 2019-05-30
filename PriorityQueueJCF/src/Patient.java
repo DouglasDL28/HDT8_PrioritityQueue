@@ -1,5 +1,3 @@
-package com.company;
-
 public class Patient implements Comparable<Patient> {
     String name;
     String syntom;
