@@ -1,5 +1,3 @@
-package com.company;
-
 // Es importante notar que las únicas funciones que se utilizan del VectorHeap son las que implementa PriorityQueue.
 public class VectorHeapTest {
     VectorHeap<Integer> test = new VectorHeap<>();
